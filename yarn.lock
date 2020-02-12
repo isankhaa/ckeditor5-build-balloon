@@ -119,21 +119,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@ckeditor/ckeditor-cloud-services-core@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor-cloud-services-core/-/ckeditor-cloud-services-core-16.0.0.tgz#56c7459dfeb8a375fa600ce513c4fd3238ab6b70"
-  integrity sha512-xiPaeXNGm5wAtW1v4gbkUP7RBdaw/bekcBZcIdhPkftOsLsjInXeOD7p4KMKuFLJYDaYB3vmaj+1G+XDKiGtdA==
-  dependencies:
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
-
-"@ckeditor/ckeditor5-adapter-ckfinder@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-adapter-ckfinder/-/ckeditor5-adapter-ckfinder-16.0.0.tgz#bce1081a68f7753d0cadbe47b6861b494cf7889c"
-  integrity sha512-B1xRa6TWJ62wTFLZ9tNbeGFPKDmhvNrnzczjLbomfvKu70dZoCRl4SHA593IWpIgjNXEcAtlVRryQQeNRMtZzw==
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-upload" "^16.0.0"
-
 "@ckeditor/ckeditor5-alignment@^16.0.0":
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-alignment/-/ckeditor5-alignment-16.0.0.tgz#2496510dae82282e481dbb6199a9f730b33a8348"
@@ -158,26 +143,6 @@
     "@ckeditor/ckeditor5-core" "^16.0.0"
     "@ckeditor/ckeditor5-ui" "^16.0.0"
 
-"@ckeditor/ckeditor5-block-quote@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-block-quote/-/ckeditor5-block-quote-16.0.0.tgz#2fa15527ac9caa101735f72b2e29ee3be411e7d6"
-  integrity sha512-eFLqSC5atCbljfPDbrBOFOQkmaqxaYUsViGlRO0J/kTtEh3fs+FLYaePsxRpnKV8ZX0qymZj4HLjk4VEnq3VXA==
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-ui" "^16.0.0"
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
-
-"@ckeditor/ckeditor5-ckfinder@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ckfinder/-/ckeditor5-ckfinder-16.0.0.tgz#ed6147744c236cc828a07ef441dc9543ca6dcd69"
-  integrity sha512-NdA8vUj0FldCIyaN7eFnZiJtJXR4pPraIjDF9AJg+ox+ND17D6wfiZBtd0qajoiXceim60AzjaNoHCTPRGrCbg==
-  dependencies:
-    "@ckeditor/ckeditor5-adapter-ckfinder" "^16.0.0"
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-image" "^16.0.0"
-    "@ckeditor/ckeditor5-link" "^16.0.0"
-    "@ckeditor/ckeditor5-ui" "^16.0.0"
-
 "@ckeditor/ckeditor5-clipboard@^16.0.0":
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-clipboard/-/ckeditor5-clipboard-16.0.0.tgz#8b53127194a971d60dd8c12c061d9cf7ae378ba5"
@@ -186,14 +151,6 @@
     "@ckeditor/ckeditor5-core" "^16.0.0"
     "@ckeditor/ckeditor5-engine" "^16.0.0"
     "@ckeditor/ckeditor5-utils" "^16.0.0"
-
-"@ckeditor/ckeditor5-cloud-services@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-cloud-services/-/ckeditor5-cloud-services-16.0.0.tgz#af44eba53395e2ffbd8538836f36a6083ad61a88"
-  integrity sha512-RH+2p1Zyy2Jp0ZJThfe6PV7jNRKqvjihEe71j0pT6WgX+PrXPILBOS750HOMwFvKAEqWS2a9XPx+R01al3HRUw==
-  dependencies:
-    "@ckeditor/ckeditor-cloud-services-core" "^16.0.0"
-    "@ckeditor/ckeditor5-core" "^16.0.0"
 
 "@ckeditor/ckeditor5-core@^16.0.0":
   version "16.0.0"
@@ -235,17 +192,6 @@
     rimraf "^2.6.2"
     webpack-sources "^1.1.0"
 
-"@ckeditor/ckeditor5-easy-image@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-easy-image/-/ckeditor5-easy-image-16.0.0.tgz#8f7d116e80bed1d4b9c0fd8a01538ee6ccf8b5d1"
-  integrity sha512-DiK2e1hELuDWFTfTv0lFrYM5B+b4gIskWH+QcFzgHOHOyvUsh3TuGTMerdt3wWuv0vWXcSmnwQRUosUUiStinw==
-  dependencies:
-    "@ckeditor/ckeditor-cloud-services-core" "^16.0.0"
-    "@ckeditor/ckeditor5-cloud-services" "^16.0.0"
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-image" "^16.0.0"
-    "@ckeditor/ckeditor5-upload" "^16.0.0"
-
 "@ckeditor/ckeditor5-editor-balloon@^16.0.0":
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-editor-balloon/-/ckeditor5-editor-balloon-16.0.0.tgz#a0ba4db7a19379b19ec8d9860f455b3cb7a9b30d"
@@ -285,6 +231,15 @@
     "@ckeditor/ckeditor5-typing" "^16.0.0"
     "@ckeditor/ckeditor5-undo" "^16.0.0"
 
+"@ckeditor/ckeditor5-font@^16.0.0":
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-font/-/ckeditor5-font-16.0.0.tgz#6cd1982ccfef413caae6f760df42ff558bb5f73a"
+  integrity sha512-ZM7ZBew5k06DILQecBJH4Z+pTOomHOTXhKwdIvtwx7MguY2QIJwMI1Zmx+VrnsSo/fAGv1sIhpAvoLYzhlYpTw==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^16.0.0"
+    "@ckeditor/ckeditor5-ui" "^16.0.0"
+    "@ckeditor/ckeditor5-utils" "^16.0.0"
+
 "@ckeditor/ckeditor5-heading@^16.0.0":
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-heading/-/ckeditor5-heading-16.0.0.tgz#410308bad71ac2146a387acc0c89f64b1bc8fde8"
@@ -302,18 +257,6 @@
   dependencies:
     "@ckeditor/ckeditor5-core" "^16.0.0"
     "@ckeditor/ckeditor5-ui" "^16.0.0"
-
-"@ckeditor/ckeditor5-image@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-image/-/ckeditor5-image-16.0.0.tgz#484a56eb37eb7eb050f2243d803966c06b333bac"
-  integrity sha512-voZYJk4guGPk47W0IhTOKAqtn8DTX5+q2yLS/HzjbCOTcfCASoeCCbbzxIEv0ozXSTlxB9QpXYZuFaQSjpvMbg==
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-engine" "^16.0.0"
-    "@ckeditor/ckeditor5-ui" "^16.0.0"
-    "@ckeditor/ckeditor5-upload" "^16.0.0"
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
-    "@ckeditor/ckeditor5-widget" "^16.0.0"
 
 "@ckeditor/ckeditor5-indent@^16.0.0":
   version "16.0.0"
@@ -344,20 +287,6 @@
     "@ckeditor/ckeditor5-ui" "^16.0.0"
     "@ckeditor/ckeditor5-utils" "^16.0.0"
 
-"@ckeditor/ckeditor5-media-embed@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-media-embed/-/ckeditor5-media-embed-16.0.0.tgz#0b6dadd461c5c3a81171a577c9e658a07bd308d7"
-  integrity sha512-wUb6xwAxTn8kHM/4CwGKi4tQNedOSikaaABgw2Hu9NIDg31x3WgaPZ8P+oK++Wgf6+J6PQD2+PRWrYZCTsklAw==
-  dependencies:
-    "@ckeditor/ckeditor5-clipboard" "^16.0.0"
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-engine" "^16.0.0"
-    "@ckeditor/ckeditor5-image" "^16.0.0"
-    "@ckeditor/ckeditor5-ui" "^16.0.0"
-    "@ckeditor/ckeditor5-undo" "^16.0.0"
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
-    "@ckeditor/ckeditor5-widget" "^16.0.0"
-
 "@ckeditor/ckeditor5-paragraph@^16.0.0":
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-paragraph/-/ckeditor5-paragraph-16.0.0.tgz#998056a592dd67385f78e0621f091701285bf0e2"
@@ -375,6 +304,16 @@
     "@ckeditor/ckeditor5-clipboard" "^16.0.0"
     "@ckeditor/ckeditor5-core" "^16.0.0"
     "@ckeditor/ckeditor5-engine" "^16.0.0"
+
+"@ckeditor/ckeditor5-remove-format@^16.0.0":
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-remove-format/-/ckeditor5-remove-format-16.0.0.tgz#e726583a7e8750287ab2f9f4ab434297fbc9962c"
+  integrity sha512-cX9eIY2SnvDHOA4Be0mzkZUbHT5dGZ/ybaaErVhU9wXV0NuHe2Gf5WHRy3Sx6fpSqHUtd3r7SRff7Kywap4wog==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^16.0.0"
+    "@ckeditor/ckeditor5-ui" "^16.0.0"
+    "@ckeditor/ckeditor5-utils" "^16.0.0"
+    eslint-plugin-ckeditor5-rules "^0.0.2"
 
 "@ckeditor/ckeditor5-table@^16.0.0":
   version "16.0.0"
@@ -419,15 +358,6 @@
     "@ckeditor/ckeditor5-core" "^16.0.0"
     "@ckeditor/ckeditor5-engine" "^16.0.0"
     "@ckeditor/ckeditor5-ui" "^16.0.0"
-
-"@ckeditor/ckeditor5-upload@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-upload/-/ckeditor5-upload-16.0.0.tgz#361b3cc3a9f3e463f7504ff6f7b355ae175785b4"
-  integrity sha512-GjOENKi53TLeV0+zRIuPabMchDTeOMcgTwV4I0VKHrEbPY4YmVbdoz3BO8KpGhA9/KK7se/JR59yHTviPgbFNA==
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-ui" "^16.0.0"
-    "@ckeditor/ckeditor5-utils" "^16.0.0"
 
 "@ckeditor/ckeditor5-utils@^16.0.0":
   version "16.0.0"
@@ -2074,6 +2004,11 @@ eslint-config-ckeditor5@^2.0.0:
   integrity sha512-SDwJs/D7daPdr6Tx9gfAeVNgid+CQJnLbHa1AYU7Do/ek4vla7QySImFi/Vsb0kYyQXqAy0vWIalbNOpVifSug==
   dependencies:
     eslint-plugin-ckeditor5-rules "^0.0.4"
+
+eslint-plugin-ckeditor5-rules@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ckeditor5-rules/-/eslint-plugin-ckeditor5-rules-0.0.2.tgz#f6325c6d046b41f05423c3a18bb9794b37c80baf"
+  integrity sha512-bV8w34pQcn1IyfdW1IEgfKuc1/hkTYpLo1DglRp1v4a2ph03PkMjN7vZ6FDrmu5ImVDJsd9022j5waA//MeyKg==
 
 eslint-plugin-ckeditor5-rules@^0.0.4:
   version "0.0.4"
