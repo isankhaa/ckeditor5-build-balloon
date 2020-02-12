@@ -29,11 +29,17 @@ import PasteFromOffice from "@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from "@ckeditor/ckeditor5-table/src/table";
 import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar";
 
+//ankhaa
+import Highlight from "@ckeditor/ckeditor5-highlight/src/highlight";
+import Alignment from "@ckeditor/ckeditor5-alignment/src/alignment";
+
 export default class BalloonEditor extends BalloonEditorBase {}
 
 // Plugins to include in the build.
 BalloonEditor.builtinPlugins = [
 	Essentials,
+	Alignment,
+	Highlight,
 	// UploadAdapter,
 	Autoformat,
 	Bold,
@@ -66,6 +72,10 @@ BalloonEditor.defaultConfig = {
 			"bold",
 			"italic",
 			"link",
+			"|",
+			"alignment",
+			"highlight",
+			"|",
 			"bulletedList",
 			"numberedList",
 			"|",
